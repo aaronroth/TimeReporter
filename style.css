@@ -1,0 +1,110 @@
+#button-generate {
+    color: #1200ee;
+    cursor: pointer;
+    height: 20px;
+    margin: 40px auto;
+    text-align: center;
+    width: 100px;  
+}
+
+#button-submit {
+    color: #1200ee;
+    cursor: pointer;
+    height: 20px;
+    margin: 10px auto;
+    text-align: center;
+    width: 75px;
+}
+
+#content {
+	margin: auto;
+	padding: 20px 0px 0px 0px;
+	width: 1000px;
+}
+
+.date-box {
+    float: left;
+    margin: 3px 0px 0px 0px;
+    width: 160px;
+}
+
+.day-line {
+    height: 24px;
+	margin: 2px 0px 2px 200px;
+}
+
+.floater {
+    float: left;
+    padding: 1px;
+}
+
+#header {
+	background-color: #eaeaea;
+	border-bottom: 1px solid #c1c1c1;
+	border-top: 1px solid #c1c1c1;
+	color: #551a8b;
+	font-size: 28pt;
+	height: 50px;
+	margin: auto;
+	padding: 10px 0px 5px 0px;
+	text-align: center;
+	width: 1000px;
+}
+
+.hour-inputs {
+    height: 18px;
+    margin: 3px 0px 0px 0px;
+    width: 50px;
+}
+
+#hours-worked {
+    color: #551a8b;
+}
+
+#input {
+    background-color: #eaeaea;
+    height: 80px;
+    margin: 40px auto;
+    padding: 20px;
+    width: 215px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.mini-headers {
+    font-weight: bold;
+    margin: 0px;
+}
+
+#name {
+    height: 26px;
+    padding: 2px 2px 0px 2px;
+}
+
+#name-input {
+    width: 125px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+#period {
+    height: 26px;
+    margin: 4px 0px 0px 0px;
+    padding: 2px 2px 0px 2px;
+}
+
+#radio-1st, #radio-2nd {
+    margin-left: 4px;
+}
+
+span {
+    margin: 2px;
+}
+
+#your-name {
+    margin-top: 1px;
+}
