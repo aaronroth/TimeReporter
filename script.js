@@ -1,3 +1,6 @@
+// Copyright (c) 2013 Aaron Roth
+// See the file LICENSE for copying permission.
+
 var monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var periodSelection;
 var userInfo;
