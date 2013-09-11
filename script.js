@@ -1,6 +1,3 @@
-// Copyright (c) 2013 Aaron Roth
-// See the file LICENSE for copying permission.
-
 var monthStrings = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var periodSelection;
 var userInfo;
@@ -375,6 +372,22 @@ function update_and_generate() {
 			         '0 hrs PTO<br>' +
 			         '0 hrs OT<br>' +
 			         '0 hrs H<br><br>';
+			         
+	// Build timesheet footer plain text.
+	var footer = 'CORRECTIONS for pay period: ' + month + ' ' + beginning +
+		         ', ' + year + ' - ' + month + ' ' + end + ', ' + year + '<br><br><br><br><br>' +
+		         'The hours recorded above reflect all hours worked during the pay period.<br><br>' +
+		         'employee signature _____________________________________<br><br>' +
+		         'approved by ____________________________________________<br><br>' +
+		         'codes<br>' +
+		         'PTO: paid time off, vacation, sick, personal business, doctor<br>' +
+		         'OT: overtime<br>' +
+		         'H: holiday<br>' +
+		         'J: jury duty<br>' +
+		         'B: bereavement<br><br>' +
+		         'craigslist, Inc.<br>' +
+		         '222 Sutter Street, 9th Floor<br>' +
+		         'San Francisco, CA 94108';
 	
 	// Update local storage (the "database") with values from the updated global variable.
 	localStorage.userInfo = JSON.stringify(userInfo);
@@ -388,5 +401,5 @@ function update_and_generate() {
 	$('#content').append(header);
 	$('#content').append(lineText);
 	$('#content').append(hourTotals);
-	// $('#content').append(footer);
+	$('#content').append(footer);
 }
